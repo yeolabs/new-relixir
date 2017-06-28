@@ -21,7 +21,7 @@ defmodule NewRelixir.Mixfile do
   end
 
   defp deps do
-    [{:phoenix, "~> 1.3"},
+    [{:phoenix, "~> 1.3.0"},
      {:ecto, ">= 1.1.0 and < 3.0.0"},
      {:newrelic, "~> 0.1.0"},
      {:earmark, "~> 0.1", only: :dev},
